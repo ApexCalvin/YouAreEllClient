@@ -28,5 +28,8 @@ public class YouAreEll {
         return MakeURLCall("/messages", "GET", "");
     }
 
+    private String MakeURLCall(String s, String get, String s1) {
+        return s + " " + get + " " + s1;
+    }
 
 }
